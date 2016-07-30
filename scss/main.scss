@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@import "partial/_reset.scss";
+@import "partial/_utility.scss";
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    // margin-right: 1rem;
+    // vertical-align: -1rem !important;
+
+    background-color: rgba(#000, 0.6);
+
+    &.hidden {
+        display: none;
+    }
+}
+
+#select-wave-type {
+    -webkit-appearance: none;
+    appearance: none;
+
+    margin-right: 1rem;
+    padding: 0rem 0.5rem 0rem;
+    height:40px;
+}
+
+#toggle-visualization {
+    margin-right: 0.5rem;
+}
+
+#toggle-session {
+    margin: 0 0.5rem 0;
+}
