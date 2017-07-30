@@ -1,26 +1,27 @@
 {
-  "name": "music-tweet",
-  "version": "0.0.0",
+  "name": "Music Tweet",
+  "version": "1.0.0",
   "manifest_version": 2,
   "description": "Chrome extension for Twitter",
   "permissions": [
-    "https://twitter.com/*"
+    "tabs", "https://twitter.com/*"
   ],
   "content_scripts": [
-  {
-    "matches": [
-      "https://twitter.com/*"
-    ],
-    "css": ["css/main.css"],
-    "js": ["lib/xsound.min.js", "build/main.min.js"]
-  }
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "css": ["stylesheets/content.css"],
+      "js": ["lib/xsound.min.js", "javascripts/content.js"]
+    }
   ],
   "browser_action": {
     "default_icon": {
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "Music Tweet"
+    "default_title": "Music Tweet",
+    "default_popup": "popup.html"
   },
   "icons" : {
     "128": "images/icon-128.png",
