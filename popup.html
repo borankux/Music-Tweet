@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Music Tweet</title>
+    <link rel="stylesheet" href="stylesheets/popup.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="MusicTweet">
+        <ul>
+            <li>
+                <form id="form-wave-type">
+                    <ul>
+                        <li><label><input type="radio" name="radio-wave-type" value="sine" checked />Sine</label></li>
+                        <li><label><input type="radio" name="radio-wave-type" value="square" />Square</label></li>
+                        <li><label><input type="radio" name="radio-wave-type" value="sawtooth" />Sawtooth</label></li>
+                        <li><label><input type="radio" name="radio-wave-type" value="triangle" />Triangle</label></li>
+                    </ul>
+                </form>
+            </li>
+            <li>
+                <form>
+                    <label><input type="checkbox" id="toggle-visualization" />Visualization</label>
+                </form>
+            </li>
+            <li>
+                <form>
+                    <label><input type="checkbox" id="toggle-session" />Session</label>
+                </form>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="javascripts/popup.js"></script>
+</body>
+</html>
