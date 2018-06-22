@@ -25,6 +25,9 @@
     "url": "https://github.com/Korilakkuma/Music-Tweet/issues"
   },
   "homepage": "https://github.com/Korilakkuma/Music-Tweet",
+  "dependencies": {
+    "xsound": "^2.3.2"
+  },
   "devDependencies": {
     "eslint": "^4.3.0",
     "eslint-cli": "^1.1.1",
