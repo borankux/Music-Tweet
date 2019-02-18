@@ -10,7 +10,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #fff;
+    color: #666;
 }
 
 .MusicTweet {
@@ -21,12 +21,12 @@ ul {
     list-style: none;
 }
 
-ul > li {
-    display: block;
+ul > li:not(:first-child):not(:last-child) {
+    margin: 16px 0;
 }
 
-ul > li:not(:first-child):not(:last-child) {
-    margin: 1rem 0;
+form {
+    padding: 8px 16px;
 }
 
 label {
@@ -39,11 +39,16 @@ label:hover {
 }
 
 input {
-    margin-right: 0.5rem;
-    vertical-align: 0.15rem;
+    margin-right: 8px;
+    vertical-align: 2px;
 }
 
-form {
-    padding: 0.5rem 1rem;
+/*
+input[type="radio"] {
+    -webkit-appearance: none;
+}
+
+input[type="radio"]:checked {
     background-color: #7ac4f7;
 }
+*/
