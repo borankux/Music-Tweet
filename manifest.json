@@ -1,6 +1,6 @@
 {
   "name": "Music Tweet",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "manifest_version": 2,
   "description": "Chrome extension for Twitter",
   "permissions": [
@@ -12,7 +12,7 @@
         "https://twitter.com/*"
       ],
       "css": ["stylesheets/content.css"],
-      "js": ["lib/xsound.min.js", "javascripts/content.js"]
+      "js": ["lib/xsound.js", "javascripts/content.js"]
     }
   ],
   "browser_action": {
