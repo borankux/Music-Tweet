@@ -32,15 +32,3 @@ document.getElementById('toggle-visualization').addEventListener('click', event 
         `
     });
 }, false);
-
-document.getElementById('toggle-session').addEventListener('click', event => {
-    chrome.tabs.executeScript(null, {
-        'code': `
-            if (${event.currentTarget.checked}) {
-                X('oscillator').module('session').state(true);
-            } else {
-                X('oscillator').module('session').state(false);
-            }
-        `
-    });
-}, false);
