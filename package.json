@@ -1,6 +1,6 @@
 {
   "name": "music-tweet",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Chrome extension for Twitter",
   "scripts": {
     "jslint": "eslint javascripts/*.js",
@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/Korilakkuma/Music-Tweet",
   "dependencies": {
-    "xsound": "^2.5.0"
+    "xsound": "^2.8.1"
   },
   "devDependencies": {
-    "eslint": "^4.3.0",
+    "eslint": "^5.14.0",
     "eslint-cli": "^1.1.1",
-    "stylelint": "^8.0.0",
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0"
   }
 }
