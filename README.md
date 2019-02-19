@@ -10,51 +10,40 @@ This uses Web Audio API Library ([XSound](https://github.com/Korilakkuma/XSound)
 ## 1. Get repository
 
 ```bash
-$ git@github.com:Korilakkuma/Music-Tweet.git
+$ git clone git@github.com:Korilakkuma/Music-Tweet.git
 ```
 
 ## 2. Install npm modules
 
 ```bash
 $ cd Music-Tweet
-$ npm install
 ```
 
 ## 3. Install to Google Chrome
 
 ### 1. More Tools > Extensions
 
-![More Tools > Extensions](https://user-images.githubusercontent.com/4006693/28756664-b9dd1dbc-75ad-11e7-98e1-8325433b3f75.png)
+![More Tools > Extensions](https://user-images.githubusercontent.com/4006693/53013389-05900800-3489-11e9-9245-60ecdc5ffe3b.png)
 
 ### 2. Check Developer mode
 
-![Check Developer mode](https://user-images.githubusercontent.com/4006693/28756676-0242cf8e-75ae-11e7-97c2-12e81bbb2f2b.png)
+![Check Developer mode](https://user-images.githubusercontent.com/4006693/53013408-180a4180-3489-11e9-9aca-f6bca678890b.png)
 
 ### 3. Load unpacked extension
 
-![Load unpacked extension](https://user-images.githubusercontent.com/4006693/28756682-1ea9bd2c-75ae-11e7-9517-9d397f4ac209.png)
+![Load unpacked extension](https://user-images.githubusercontent.com/4006693/53013438-29534e00-3489-11e9-9e92-e6315194f6c4.png)
 
 ### 4. Select Music-Tweet directory
 
-![Select Music-Tweet directory](https://user-images.githubusercontent.com/4006693/28756688-40e159d6-75ae-11e7-94f9-1bb973d76136.png)
+![Select Music-Tweet directory](https://user-images.githubusercontent.com/4006693/53013460-35d7a680-3489-11e9-91c2-3391122db731.png)
 
 ### 5. Installed
 
-![Installed](https://user-images.githubusercontent.com/4006693/28756704-94a78efa-75ae-11e7-9b99-8c31ad103317.png)
+![Installed](https://user-images.githubusercontent.com/4006693/53013525-59025600-3489-11e9-9e4d-721ac67c1429.png)
 
 ## 4. Visit https://twitter.com and Tweet MML
 
-### Tweet MML
-
-![Tweet MML](https://user-images.githubusercontent.com/4006693/28756715-b598ebd6-75ae-11e7-9160-a31072dfd7ca.png)
-
-### Select tweeted MML
-
-![Select tweeted MML](https://user-images.githubusercontent.com/4006693/28756720-d75b987c-75ae-11e7-8c50-b8e286b9996f.png)
-
-### Popup
-
-![Popup](https://user-images.githubusercontent.com/4006693/28756724-f145a606-75ae-11e7-9b3c-59e77701a028.png)
+![Tweet MML](https://user-images.githubusercontent.com/4006693/53015207-cd3ef880-348d-11e9-808c-d4f7eacc922a.gif)
 
 ### MML sample
 
