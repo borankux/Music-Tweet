@@ -31,14 +31,16 @@ X('oscillator').module('analyser').domain('time').setup(canvas).state(true).para
     'right'    : 0
 });
 
-const tweetboxtimeline = document.getElementById('tweet-box-home-timeline');
-const tweetbuttons     = document.querySelectorAll('form .js-tweet-btn');
+setTimeout(() => {
+    const tweetboxtimeline = document.querySelector('[contenteditable]');
+    const tweetbuttons     = document.querySelectorAll('[data-testid="tweetButtonInline"]');
 
-if (tweetbuttons.length > 0) {
-    tweetbuttons[0].addEventListener('click', () => {
-        X('mml').ready(X('oscillator'), [tweetboxtimeline.textContent]).start(0);
-    }, false);
-}
+    if (tweetbuttons.length > 0) {
+        tweetbuttons[0].addEventListener('click', () => {
+            X('mml').ready(X('oscillator'), [tweetboxtimeline.textContent]).start(0);
+        }, false);
+    }
+}, 5000);
 
 document.addEventListener('mouseup', () => {
     const selection = window.getSelection();
