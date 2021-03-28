@@ -12,7 +12,7 @@
         "https://twitter.com/*"
       ],
       "css": ["stylesheets/content.css"],
-      "js": ["lib/xsound.js", "javascripts/content.js"]
+      "js": ["node_modules/xsound/build/xsound.js", "javascripts/content.js"]
     }
   ],
   "browser_action": {
