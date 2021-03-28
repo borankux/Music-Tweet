@@ -19,8 +19,7 @@
     "Twitter",
     "Web Audio API",
     "MML",
-    "XSound",
-    "XSound.js"
+    "XSound"
   ],
   "author": "Korilakkuma <rilakkuma.san.xjapan@gmail.com>",
   "license": "MIT",
