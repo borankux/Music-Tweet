@@ -1,46 +1,46 @@
 @charset "UTF-8";
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    min-width: 240px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
+  min-width: 240px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
 }
 
 .MusicTweet {
-    margin: 24px;
+  margin: 24px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 ul > li:not(:first-child):not(:last-child) {
-    margin: 16px 0;
+  margin: 16px 0;
 }
 
 form {
-    padding: 8px 16px;
+  padding: 8px 16px;
 }
 
 label {
-    cursor: pointer;
-    transition: opacity ease 0.6s;
+  cursor: pointer;
+  transition: opacity ease 0.6s;
 }
 
 label:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 input {
-    margin-right: 8px;
-    vertical-align: 2px;
+  margin-right: 8px;
+  vertical-align: 2px;
 }
 
 /*
